@@ -3,7 +3,7 @@
 
 ## This is a Reddit bot I programmed on a lark. It searches popular subs looking for people using the word "clown" as an insult.
 
-#### When it fetches an appropriate comment it brings a prompt back asking whether it's appropriate to leave a funny stock comment.
+#### When it fetches an appropriate comment it brings a prompt back asking whether it's appropriate to leave a funny reply.
 
 #### Here is the comment the bot leaves if prompted:
 
