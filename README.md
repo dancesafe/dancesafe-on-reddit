@@ -1,5 +1,5 @@
 # clown-bot
-Correcting the record on clowns.
+[Correcting the record on clowns.](https://www.reddit.com/user/clown_b0t/?sort=top)
 
 ## This is a Reddit bot that I programmed on a lark that will trawl some very popular subs and look for commenters using the word "clown" as an insult.
 
