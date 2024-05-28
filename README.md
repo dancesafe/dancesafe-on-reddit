@@ -1,11 +1,9 @@
 # clown-bot
-Correcting the record on clowns.
+[Correcting the record on clowns.](https://www.reddit.com/user/clown_b0t/)
 
-## This is a Reddit bot that I programmed on a lark that will trawl some very popular subs and look for commenters using the word "clown" as an insult.
+## This is a Reddit bot I programmed on a lark. It searches popular subs looking for people using the word "clown" as an insult.
 
-#### If it finds someone using the word "clown" in a comment, it prompts me to leave a stock comment, which is a copy of a highly-upvoted comment I once left on my main account.
-
-#### The prompt also allows me to skip commenting or to permanently ignore the comment (which the bot will also do in the future if I've already commented).
+#### When it fetches an appropriate comment it brings a prompt back asking whether it's appropriate to leave a funny reply.
 
 #### Here is the comment the bot leaves if prompted:
 
