@@ -99,7 +99,7 @@ while True:
                             if str(comment.author) in authors_found:
                                 print('**************************Author found')
                             print("Author: " + str(comment.author))
-                            prompt = input("Clownish reply? \n ('y' to reply, 'n' to ignore comment, '!' to ignore post, 'd' to downvote and move on, anything else to skip): ")
+                            prompt = input("Clown? \n: ")
                             if prompt == "y":
                                 try:
                                     thisComment.reply(reply_text)
@@ -112,6 +112,14 @@ while True:
                             if prompt == "n":
                                 comments_found.append(comment.id)
                                 print("Comment ignored.")
+                            if prompt == "u":
+                                try:
+                                    comment.upvote()
+                                    print("Upvoted and ignored.")
+                                    comments_found.append(comment.id)
+                                except Exception as e:
+                                    print(e)
+                                    comments_found.append(comment.id)    
                             if prompt == "d":
                                 try:
                                     comment.downvote()
