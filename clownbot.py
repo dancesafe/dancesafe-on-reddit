@@ -99,7 +99,7 @@ while True:
                             if str(comment.author) in authors_found:
                                 print('**************************Author found')
                             print("Author: " + str(comment.author))
-                            prompt = input("Clown? \n: ")
+                            prompt = input("Clown? \n: (y/n/u/d/!)")
                             if prompt == "y":
                                 try:
                                     thisComment.reply(reply_text)
