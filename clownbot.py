@@ -14,7 +14,8 @@ exempt_terms = ["class clown",
                 "clowned",
                 "clownfish",
                 "clown fish",
-                "art the clown"
+                "art the clown",
+                "clown on",
                 ]
 subs = ['funny',
         'internationalnews',
